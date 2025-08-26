@@ -1,10 +1,10 @@
 export function Tabs() {
     const tabs = ["All", "Active", "Completed"];
   return (
-    <nav className="tabs">
+    <nav className="tab-container">
         {tabs.map((tab) => (
-            <button key={tab} className="tab">
-                <h4>{tab}</h4>
+            <button key={tab} className="tab-button">
+                <h4>{tab} <span>(0)</span></h4>
             </button>
         ))} 
     </nav>
