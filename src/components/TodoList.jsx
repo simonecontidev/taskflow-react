@@ -1,5 +1,10 @@
+import { TodoCard } from "./TodoCard";
+
+
 export function TodoList() {
   return (
-    <section className="todo-list"></section>
+    <section className="todo-list">
+        <TodoCard />
+    </section>
   );
 }
