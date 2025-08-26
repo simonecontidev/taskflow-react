@@ -1,4 +1,5 @@
-import './App.css'
+import './index.css' 
+import './layout.css' 
 import { Header } from './components/Header'
 import { Tabs } from './components/Tabs'
 import { TodoInput } from './components/TodoInput'
@@ -8,12 +9,10 @@ function App() {
 
   return (
     <>
-      <div>
         <Header />
         <Tabs />
         <TodoList />
         <TodoInput />
-      </div>
     </>
   )
 }
